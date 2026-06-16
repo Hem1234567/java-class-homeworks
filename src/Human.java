@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+class Human {
+    String name;
+    int age;
+    String gender;
 
-public class Human {
+    void displayBasicInfo() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Gender: " + gender);
+    }
 }
+

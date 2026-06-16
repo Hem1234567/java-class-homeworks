@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+class Employee extends Human {
+    double salary;
+    String designation;
 
-public class Employee {
+    void displayEmployeeDetails() {
+        displayBasicInfo();
+        System.out.println("Designation: " + designation);
+        System.out.println("Salary: " + salary);
+    }
 }

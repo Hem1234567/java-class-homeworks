@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
-
 public class Engine {
+    double hp;
+
+    public Engine(double hp) {
+        this.hp = hp;
+    }
 }
